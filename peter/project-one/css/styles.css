@@ -1,11 +1,15 @@
 h1{
-  text-align: left;
+  text-align: center;
   font-size: 56px;
+  color: #7A382A;
+}
+h2{
+  font-size: 36px;
 }
 img{
   background-size: cover;
 }
-ul {
+.davi {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,24 +17,188 @@ ul {
     background-color: #333;
 }
 
-li {
+.davi li{
     float: left;
 }
 
-li a {
+.davi li a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 26px;
 }
-li a:hover {
+.davi li a:hover{
     background-color: #111;
 }
 body{
   font-family: 'Caveat', cursive;
+  background: url("../images/blue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .baker{
-  height: 523px;
-  width: 650px;
+  height: 408px;
+  width: 683px;
+}
+.srvce{
+  font-size: 24px;
+  font-family: 'Caveat', cursive;
+  background: url("../images/blue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rose{
+  background: url("../images/blue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  font-size: 30px;
+  text-align: center;
+}
+.social{
+  margin-left: 12%;
+}
+.container {
+    position: relative;
+    width: 50%;
+    margin: 0px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  float: left;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #7A382A;
+  color: white;
+  font-size: 30px;
+  padding: 16px 32px;
+}
+.becky{
+  font-size: 26px;
+}
+.babs{
+  font-size: 26px;
+}
+.peter{
+  font-size: 26px;
+}
+.bombo{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+  .bombo li{
+      float: left;
+  }
+
+  .bombo li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 26px;
+  }
+  .bombo li a:hover{
+      background-color: #111;
+}
+.classic{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.classic li{
+    float: left;
+}
+.classic li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.classic li a:hover{
+    background-color: #111;
+}
+.browser{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.browser li{
+    float: left;
+}
+.browser li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.browser li a:hover{
+    background-color: #111;
+}
+.babel{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.babel li{
+    float: left;
+}
+.babel li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.babel li a:hover{
+    background-color: #111;
+}
+.raw{
+  height: 80px;
+}
+.employ{
+  font-size: 36px;
 }
