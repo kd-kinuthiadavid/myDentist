@@ -58,9 +58,6 @@ p{
   font-size: 30px;
   text-align: center;
 }
-.social{
-  margin-left: 12%;
-}
 .container {
     position: relative;
     width: 50%;
@@ -201,4 +198,26 @@ p{
 }
 .employ{
   font-size: 36px;
+}
+.social div{
+   width: 24.5%;
+   height: auto;
+   border-radius: 100px;
+   text-align: center;
+   padding: 10px;
+   background-color: #fff;
+   border: 1px double #1da1f2;
+   border-width: thick;
+   color: #1da1f2;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 2px;
+}
+.blow{
+  text-align: center;
+  font-size: 30px;
+  color: #7A382A;
+}
+.tm img{
+  height: 30px;
 }
