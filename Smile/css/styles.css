@@ -1,0 +1,156 @@
+/* Style the header */
+.header {
+  background:	#00BFFF;
+  padding: 0.1px;
+  color: black;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 50px;
+}
+h1{
+  font-size: 50px;
+  color: black;
+  font-family:sans-serif;
+  text-align: center;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #00BFFF;
+    padding-right: 100px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color: darkred;
+}
+.top{
+  background-color: #87CEFA;
+}
+.ontop{
+  width: 100px;
+  height: 50px;
+}
+.slide{
+  height: 450px;
+  width: 550px;
+  padding-left: 50px;
+}
+.b4slide{
+  background-color: 	;
+}
+.smile{
+    height: 500px;
+    width: 500px;
+    padding-left: 50px;
+}
+h2{
+  font-size: 50px;
+  color: #191970;
+  text-align: center;
+}
+.smileborder{
+  border-style: solid;
+  border-right-color: darkred;
+  border-left-color: #B0E0E6;
+  border-top-color: #B0E0E6;
+  border-bottom-color: #B0E0E6;
+}
+.a{
+  background-color: #FFFAFA;
+  border-style: solid;
+  border-right-color: #FFFAFA;
+  border-left-color: #FFFAFA;
+  border-top-color: #FFFAFA;
+  border-bottom-color: black;
+  border-spacing: 5px;
+  background-image: url('/images/simone-hutsch-438962-unsplash.jpg');
+}
+.b{
+  background-color: #B0E0E6;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: green;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.service{
+  background-color: #FFDEAD;
+}
+.services{
+  height: 300px;
+  width: 300px;
+  border-width: thick;
+  border-right-color: red;
+}
+.app{
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.serv{
+  background-color: #E6E6FA;
+}
+footer{
+  text-align: center;
+}
+.link{
+  font-size: 20px;
+}
