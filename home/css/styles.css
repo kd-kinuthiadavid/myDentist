@@ -2,6 +2,7 @@ img{
   width: 100%;
   max-height: 600px;
 }
+
 /* Dropdown Button */
 .dropbtn {
     background-color: darkred;
@@ -51,12 +52,15 @@ img{
 h2{
   color: white;
 }
+
 h5{
   color: aqua;
 }
+
 .contact{
   color: aqua;
 }
+
 w3-content{
   margin: auto;
 }
