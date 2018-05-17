@@ -1,0 +1,59 @@
+.logo img {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 60px;
+}
+body {
+  background-color: black;
+  background-image: url("../img/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron {
+  width: 1150px;
+  background-image: url("../img/a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+}
+.row {
+  background-color: white;
+}
+.contacts img {
+  height: 50px;
+  width: 50px;
+  padding left: 100px;
+}
+.vl {
+  color: 3px solid red;
+}
+.dentistH {
+  text-align: center;
+  padding: 20px;
+  color: blue;
+}
+.meno {
+  text-align: center;
+  padding: 20px;
+  color: blue;
+}
+.selfie1 {
+  float: left;
+  color: white;
+}
+.Customers {
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+}
+#reviews {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
