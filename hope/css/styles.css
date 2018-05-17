@@ -8,7 +8,9 @@
   color: #00CED1;
 }
 body {
-  background-color: white;
+  background-image: url("../img/bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .logo img {
   width:230px;
@@ -40,6 +42,7 @@ body {
 }
 .doc1 {
   position: relative;
+  float: left;
   width: 50%;
 }
 
@@ -80,6 +83,50 @@ body {
   height: 200px;
   width: 283px;
 }
+.doc2 {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.image {
+  display: block;
+
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #00CED1;
+  overflow: hidden;
+  width: 52%;
+  height:0;
+  transition: .3s ease;
+}
+
+.doc2:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.doc2 img {
+  height: 200px;
+  width: 283px;
+}
+
 button {
   color: #00CED1;
 }
@@ -91,14 +138,22 @@ button {
 #reviews {
   padding: 60px;
   font-size: 20px;
+  color: white;
+}
+.Customers {
+  color: white;
+}
+.rmve {
+  margin-left: 200px;
+}
+.add {
+  font-size: 40px;
+  padding: 20px;
 }
 .footer {
   position: relative;
-   left: 0;
-   bottom: 0;
    width: 100%;
    background-color: #00CED1;
-   color: white;
    text-align: center;
    padding-top: 50px;
    height: 140px;
