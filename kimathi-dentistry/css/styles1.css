@@ -1,0 +1,33 @@
+body, html{
+  height: 50%;
+  /* font-family: 'Quicksand', sans-serif; */
+}
+.text-area-menu{
+  height: 40%;
+  background-color: #EDF7F6;
+
+}
+.message-menu{
+  height: 40%;
+  background-color: #EDF7F6;
+
+}
+.doctor-image{
+  display: block;
+  margin: auto;
+  border-radius: 40%;
+  width: 60%;
+  margin-top: 120px;
+}
+#doctorContent{
+  margin-top: 350px;
+}
+#doctorHead{
+  margin-top: 160px;
+}
+#doctorText{
+  margin-top: -50px;
+}
+#doctorMenu{
+  height: 100%;
+}

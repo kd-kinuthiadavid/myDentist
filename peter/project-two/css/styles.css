@@ -1,0 +1,300 @@
+h1{
+  text-align: left;
+  color: white;
+  font-family: 'Bangers', cursive;
+  font-size: 56px;
+}
+body{
+  background: url("../images/b4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo{
+  height: 130px;
+  width: 170px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    float: right;
+}
+
+.dropup {
+    /* position: relative; */
+    display: inline;
+}
+
+.dropup-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.dropup-content a {
+    color: #7A382A;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline;
+    font-size: 38px;
+    font-family: 'Tillana', cursive;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+.dropup:hover .dropbtn {
+    background-color: #3e8e41;
+}
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    float: left;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+.pic{
+  height: 420px;
+  width: 650px;
+}
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    margin-top: 20%;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+p{
+  color: white;
+  font-size: 20px;
+  font-family: 'Oleo Script', cursive;
+}
+.bro{
+  color: white;
+  font-size: 20px;
+}
+.lala{
+  font-family: 'Tillana', cursive;
+}
+.employ{
+  font-size: 24px;
+  color: white;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial; */
+    /* margin: 0 auto; /* Center website */ */
+    max-width: 800px; /* Max width */
+    padding: 20px;
+}
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+    color: white;
+    font-family: 'Bangers', cursive;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    /* text-align: right; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    /* text-align: center; */
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+/* @media (max-width: 400px) {
+    .side, .middle {
+        width: 100%; */
+    }
+    .right {
+        display: none;
+    }
+}
+.siz{
+  text-align: center;
+}
+.sters{
+  color: white;
+  font-family: 'Tillana', cursive;
+}
+.prace{
+  margin-top: 15%;
+}
+h2{
+  color: white;
+  font-family: 'Oleo Script', cursive;
+}
+.blaza{
+  height: 30px;
+  width:
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* @media screen and (max-width: 0px) {
+  .column {
+    /* width: 100%; */
+    display: block;
+  } */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.doc3{
+  height: 194px;
+}
+.zone{
+  height: 100px;
+  width: 100px;
+}
+.fb{
+  height: 100px;
+  width: 100px;
+}
+.blaze{
+  text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
