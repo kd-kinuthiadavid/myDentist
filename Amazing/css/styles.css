@@ -1,8 +1,12 @@
+body{
+  font-family: 'Cuprum';
+  font-size: 18px;
+}
 h1{
   text-align: center;
   font-size: 50px;
   color: black;
-  font-family:sans-serif;
+  font-family: 'Creepster';
 }
 .top{
   background-color: #FF7F50;
@@ -46,6 +50,7 @@ h1{
 h2{
   font-weight: 700;
   text-align: center;
+  font-family: 'Chewy';
 }
 .service{
   background-color: #FFDEAD;
@@ -87,4 +92,7 @@ footer{
   border-left-color: darkred;
   border-top-color: darkred;
   border-bottom-color: darkred;
+}
+.equip{
+  float: none;
 }
