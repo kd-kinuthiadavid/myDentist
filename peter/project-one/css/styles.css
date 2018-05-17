@@ -33,18 +33,19 @@ img{
     background-color: #111;
 }
 body{
-  font-family: 'Caveat', cursive;
+  font-family: 'Istok Web', sans-serif;
   background: url("../images/blue.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 10px;
 }
 .baker{
-  height: 408px;
+  height: 507px;
   width: 683px;
 }
 .srvce{
   font-size: 24px;
-  font-family: 'Caveat', cursive;
+  /* font-family: 'Caveat', cursive; */
   background: url("../images/blue.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,8 +68,8 @@ p{
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+  width: 500px;
+  height: 200px;
   transition: .5s ease;
   backface-visibility: hidden;
   float: left;
@@ -220,4 +221,7 @@ p{
 }
 .tm img{
   height: 30px;
+}
+.bluxx{
+  text-align: center;
 }
