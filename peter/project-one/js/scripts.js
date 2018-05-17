@@ -8,7 +8,7 @@ $(document).ready(function(){
    event.preventDefault();
 
    var inputtedFirstReview = $("input#theirViews").val();
-
+   $("input#theirViews").val('');
    var newView = new ToReview(inputtedFirstReview);
 
    $("ol#toView").append("<li>" + newView.firstEntry + "<button class='rmve'>X </button>" + "</li>")
@@ -22,16 +22,3 @@ $(document).ready(function(){
    $("input#theirViews").val();
  });
 });
-
-// $(".a").click(function(){
-//  $(".b").show();
-// });
-// $(".c").click(function(){
-//  $(".d").show();
-// });
-// $(".e").click(function(){
-//  $(".f").show();
-// });
-// $(".g").click(function(){
-//  $(".h").show();
-// });
